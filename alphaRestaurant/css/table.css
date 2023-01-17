@@ -1,0 +1,111 @@
+.table-container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 40px;
+    font-weight: 500;
+    background-color: #288eee;
+    border-radius: 10px;
+}
+
+.bookingsTable{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.bookingsTable thead{
+    background-color: #288eee;
+
+}
+
+.bookingsTable thead tr th{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #dee2e685;
+
+
+}
+
+.bookingsTable tbody tr td{
+
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #f1f1f1;
+    background-color: #232d88;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dee2e685;
+
+}
+
+.bookingsTable tbody tr td a{
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: medium;
+    color: #f1f1f1;
+    background-color: #aa2727;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    opacity: 1;
+}
+
+@media (max-width: 768px){
+    .bookingsTable thead{
+        display: none;
+    }
+
+    .bookingsTable .bookingsTable tbody, .bookingsTable tr, .bookingsTable td{
+        display: block;
+        width: 100%;
+
+
+    }
+
+    .bookingsTable tr{
+        margin-bottom: 15px;
+
+
+    }
+    .bookingsTable tbody tr td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .bookingsTable td:before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+
+}
+
+form{
+    align-items: center;
+
+
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+
+html{
+
+    font-size: 10px;
+    overflow-x: hidden;
+
+
+}
+
+
+:root{
+    --green-1: #232d88;
+    --green-2: #3684b1;
+    --green-3: #339b1e;
+    --lightGreen-1: #b5c8f7;
+    --lightGreen-2: #9bb8ff;
+    --black-1: #3b413a;
+    --black-2: #3f3c3c;
+    --black-3: #5b6359;
+    --white-1: #e8e8e8;
+}
+
+body{
+    background-color: var(--lightGreen-2);
+    overflow-x: hidden;
+}
+
+section{
+    padding: 100px 0;
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        padding: 50px 0;
+    }
+}
+
+.container{
+    max-width:1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+
+h1, h2, h3, h4{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+    font-size: 1.8em;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.loginform{
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
